@@ -10,6 +10,7 @@ import Intro from './components/Intro';
 import Skills from './components/Skills';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Testimonials from './components/Testimonials';
 
 function App() {
 
@@ -19,25 +20,18 @@ function App() {
   }, []);
 
   return (
-    <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
-      <Navbar />
+    <div className = "bg-dark-1 ">
+      <header class="sticky top-0 z-50"><Navbar /></header>
+      
+      <div className="px-6 lg:px-20 xl:px-36">
       <Intro />
       <Skills />
       {/* <Honors /> */}
       {/* <Certs /> */}
-      <Footer />
+      {/* <Testimonials /> */}   
     </div>
-
-
-    // <div className="App">
-    //   <header className="App-header">
-    //    <NavbarPage />
-    //    <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/about" element={<About />} />
-    //   </Routes>
-    //   </header>
-    // </div>
+    <Footer />
+    </div>
   );
 }
 
