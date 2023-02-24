@@ -48,8 +48,6 @@ export default function Navbar() {
                                 </Dropdown.Item>
                             </Dropdown></svg>
                         </button>
-
-
                     </div>
                 </div>
             </nav>
