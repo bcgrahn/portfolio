@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Intro from '../components/Intro';
 import Skills from '../components/Skills';
+import Simple from '../components/Car';
 
 
 const HomePage = () => {

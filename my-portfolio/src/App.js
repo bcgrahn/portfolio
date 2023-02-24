@@ -1,13 +1,15 @@
 import './App.css';
-import {useEffect} from 'react'
-import { Routes, Route} from "react-router-dom";
+import { createContext, useContext, useEffect, useRef, useState } from 'react'
+import {
+  BrowserRouter,
+  Redirect,
+  Route,
+  Link,
+  useLocation, Routes
+} from "react-router-dom";
 import Home from "./routes/HomePage";
-import NavbarPage from './components/NavbarPage';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Intro from './components/Intro';
-import Skills from './components/Skills';
 import WelcomePage from './routes/WelcomePage';
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Testimonials from './components/Testimonials';
@@ -20,25 +22,29 @@ function App() {
   }, []);
 
   return (
-    <div> 
-      <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="details" element={<Home />} />
-      </Routes>
+    <div>
+      <Content />
     </div>
-    // <div className = "bg-dark-1 ">
-    //   <header class="sticky top-0 z-50"><Navbar /></header>
-      
-    //   <div className="px-6 lg:px-20 xl:px-36">
-    //   <Intro />
-    //   <Skills />
-    //   {/* <Honors /> */}
-    //   {/* <Certs /> */}
-    //   {/* <Testimonials /> */}   
-    // </div>
-    // <Footer />
-    // </div>
   );
 }
+
+function Content() {
+  const location = useLocation();
+  return (
+    <TransitionGroup>
+      <CSSTransition
+        key={location.pathname}
+        timeout={400}
+        classNames="fadeIn" //Enter an animation class
+      >
+        <Routes>
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/details" element={<Home />} />
+        </Routes>
+      </CSSTransition>
+    </TransitionGroup>
+  );
+}
+
 
 export default App;
