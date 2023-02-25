@@ -15,7 +15,6 @@ import 'aos/dist/aos.css';
 import Testimonials from './components/Testimonials';
 
 function App() {
-
   useEffect(() => {
     document.title = 'Brye Grahn';
     AOS.init();
@@ -38,8 +37,8 @@ function Content() {
         classNames="fadeIn" //Enter an animation class
       >
         <Routes>
-          <Route path="/" element={<WelcomePage />} />
           <Route path="/details" element={<Home />} />
+          <Route path="/" element={<WelcomePage />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>
