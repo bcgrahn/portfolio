@@ -8,6 +8,16 @@
     border: 1px solid rgba(255, 255, 255, 0.41);
 }
 
+.hamGlassCard {
+  min-width: 100%;
+  padding: 0.2em 3em;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
 .glass-button {
     display: inline-block;
     padding: 8px 14px;
@@ -27,3 +37,26 @@
   .glass-button:hover {
     background-color: rgba(255,255,255,0.2);
   }
+
+  /* .primary-navigation {
+    display: none;
+  } */
+
+  /* Make it flex when the screen width is medium or larger */
+  @media (min-width: 768px) {
+    .primary-navigation {
+      display: none;
+    }
+  }
+
+  @media (max-width:48em){
+    .primary-navigation {
+      padding: 2em;
+      position:fixed;
+      inset: 11% 4% 0 30%;
+      /* background: rgba(70, 131, 180, 0.565); */
+    }
+    
+  }
+
+  
