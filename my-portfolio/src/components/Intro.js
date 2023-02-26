@@ -32,17 +32,17 @@ export default function Intro () {
                 <a href='http://blog.dama.ink' className='mt-2 block'>Go to My Blog <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>     
                 <ul className='flex mt-2 gap-4 items-center'>
                    <li>
-                        <a href='https://github.com/radendi' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
+                        <a href='https://github.com/bcgrahn?tab=repositories' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                    </li> 
                     <li>
-                        <a href='https://instagram.com/damaasth' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
+                        <a href='https://www.instagram.com/bryce_grahn/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
                     </li>
                     <li>
-                        <a href='htps://linkedin.com/damasukma' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
+                        <a href='https://www.linkedin.com/in/bryce-grahn/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
                     </li>
                 </ul>
             </div>
-            <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
+            {/* <img src={hr} className="m-5 w-full md:h-2 absolute bottom-0" alt="hr" /> */}
         </div>
         </>
     )
