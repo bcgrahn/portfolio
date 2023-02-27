@@ -1,4 +1,3 @@
-import hr from '../assets/curve-hr.svg'
 
 export default function Footer(){
   return (
@@ -13,20 +12,20 @@ export default function Footer(){
     //   <p className="text-sm font-light text-center">Copyright © Bryce Grahn. All Right Reserved</p>
 
 <div className = "p-8">  
-<footer class="p-4 sm:p-6 dark:bg-gray-900">
-    <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
+<footer className="p-4 sm:p-6 dark:bg-gray-900">
+    <div className="md:flex md:justify-between">
+        <div className="mb-6 md:mb-0">
             <a href="https://www.linkedin.com/in/bryce-grahn/" class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="orange" class="bi bi-columns-gap" viewBox="0 0 16 16">
                             <path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z" />
                         </svg>
-                <span class="self-center text-2xl font-semibold whitespace-nowrap text-gray-100  dark:text-gray-100">&nbsp;&nbsp;&nbsp;Bryce</span>
+                <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-100  dark:text-gray-100">&nbsp;&nbsp;&nbsp;Bryce</span>
             </a>
         </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Resources</h2>
-                <ul class="text-gray-200  dark:text-gray-400">
+                <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Resources</h2>
+                <ul className="text-gray-200  dark:text-gray-400">
                     <li class="mb-4">
                         <a href="https://www.linkedin.com/in/bryce-grahn/" class="hover:underline">Linked in</a>
                     </li>
@@ -36,9 +35,9 @@ export default function Footer(){
                 </ul>
             </div>
             <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Follow us</h2>
-                <ul class="text-gray-200  dark:text-gray-400">
-                    <li class="mb-4">
+                <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Follow us</h2>
+                <ul className="text-gray-200  dark:text-gray-400">
+                    <li className="mb-4">
                         <a href="https://github.com/bcgrahn?tab=repositories" class="hover:underline ">Github</a>
                     </li>
                     <li>
