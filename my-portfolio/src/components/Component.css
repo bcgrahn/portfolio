@@ -31,15 +31,17 @@
   letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.margin{
+  margin-bottom: 10px;
 }
 
 .glass-button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-/* .primary-navigation {
-    display: none;
-  } */
 
 /* Make it flex when the screen width is medium or larger */
 @media (min-width: 768px) {
@@ -51,28 +53,23 @@
 @media (max-width:48em) {
   .primary-navigation {
     display: block;
-
     /* padding: 2em; */
- 
-
     /* inset: 0% 0% 5% 5% */
         /* background: rgba(70, 131, 180, 0.565); */
   }
 
   .ham-menu-container {
-    padding-top: 8px;
+    padding-top: 5px;
     float: right;
-    max-width: 200px;
+    max-width: 160px;
   }
 
   ul {
     text-align: center;
   }
-  
   li {
     display: inline-block;
   }
-
 }
 
 #ham-controller {
