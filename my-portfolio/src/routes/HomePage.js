@@ -9,17 +9,17 @@ const HomePage = () => {
 
     return (
         <div class="bggradient">
-            <header class="sticky top-0 z-50"><Navbar /></header>
-            <div className="px-6 lg:px-20 xl:px-36">
-                <Intro />
-                <HR />
-                <Skills />
-                <HR />
-                {/* <Honors /> */}
-                {/* <Certs /> */}
-                {/* <Testimonials /> */}
-            </div>
-            <Footer />
+                <div class="overlay sticky top-0 z-50"><Navbar /></div>
+                <div className="px-6 lg:px-20 xl:px-36">
+                    <Intro />
+                    <HR />
+                    <Skills />
+                    <HR />
+                    {/* <Honors /> */}
+                    {/* <Certs /> */}
+                    {/* <Testimonials /> */}
+                </div>
+                <Footer />
         </div>
     )
 }
