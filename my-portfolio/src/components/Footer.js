@@ -22,7 +22,7 @@ export default function Footer(){
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-100  dark:text-gray-100">&nbsp;&nbsp;&nbsp;Bryce</span>
             </a>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-3 gap-8 sm:gap-8 sm:grid-cols-3">
             <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Resources</h2>
                 <ul className="text-gray-200  dark:text-gray-400">

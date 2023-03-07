@@ -8,9 +8,9 @@ import HR from '../components/HR';
 const HomePage = () => {
 
     return (
-        <div class="bggradient">
-            <div class = "overlay">
-            <header class="sticky top-0 z-50"><Navbar /></header></div>
+        <div class="bggradient content">
+            <div class="overlay">
+                <header class="sticky top-0"><Navbar /></header></div>
             <div className="px-6 lg:px-20 xl:px-36">
                 <Intro />
                 <HR />
@@ -19,9 +19,9 @@ const HomePage = () => {
                 {/* <Honors /> */}
                 {/* <Certs /> */}
                 {/* <Testimonials /> */}
+               
             </div>
             <Footer />
-            
         </div>
     )
 }

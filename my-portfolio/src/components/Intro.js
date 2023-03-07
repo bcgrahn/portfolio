@@ -1,27 +1,10 @@
-import { useState, useRef, useEffect } from 'react'
-import profile from '../assets/profile.svg';
+import { useState} from 'react'
 import spring from '../assets/spring.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { Rive } from "rive-js";
-import myRiveFile from "../assets/1.riv";
-import hr from '../assets/curve-hr.svg'
+
 
 export default function Intro() {
-    // const canvasRef = useRef(null);
-
-    // useEffect(() => {
-    //     const loadRiveFile = async () => {
-    //         const rive = await Rive.load(myRiveFile);
-    //         const artboard = rive.defaultArtboard();
-    //         const canvas = canvasRef.current;
-    //         const ctx = canvas.getContext("2d");
-    //         const renderer = new Rive.CanvasRenderer(ctx);
-    //         renderer.drawArtboard(artboard, 1);
-    //     };
-    //     loadRiveFile();
-    // }, []);
 
     const [loaded, setLoaded] = useState(true);
     return (
@@ -34,7 +17,7 @@ export default function Intro() {
                 null
             }
             <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative">
-                <div className='md:w-3/6 md:p-4'>
+                <div className='pt-14  md:w-3/6 md:p-4'>
                     <img data-aos="flip-right" data-aos-duration="1500" data-aos-offset="200" src={spring} alt="profile" onLoad={() => setLoaded(false)} />
                 </div>
                 <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
@@ -59,9 +42,6 @@ export default function Intro() {
                 </div>
                 {/* <img src={hr} className="m-5 w-full md:h-2 absolute bottom-0" alt="hr" /> */}
             </div>
-
-            {/* <canvas ref={canvasRef} /> */}
-
         </>
     )
 }
