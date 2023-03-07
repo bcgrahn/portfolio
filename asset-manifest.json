@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e314c5f.css",
-    "main.js": "/portfolio/static/js/main.d62f6b9d.js",
+    "main.css": "/portfolio/static/css/main.6d6b3655.css",
+    "main.js": "/portfolio/static/js/main.0e01b8ae.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/welcome2.jpg": "/portfolio/static/media/welcome2.2058cd6e60d40343d698.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.9907c822aedacc1d0614.pdf",
-    "static/media/profile.svg": "/portfolio/static/media/profile.005c396b12d8d78d261daf5e24cafcf6.svg",
     "static/media/spring.png": "/portfolio/static/media/spring.84e295991d81da2460b0.png",
     "static/media/mikrotik.svg": "/portfolio/static/media/mikrotik.d2e17a6764779d1cc982433d85aeeb58.svg",
-    "static/media/1.riv": "/portfolio/static/media/1.6d1b8a4ab0263de71c34.riv",
     "static/media/rabbit.png": "/portfolio/static/media/rabbit.b4d9ad38153783d64b27.png",
     "static/media/linux.svg": "/portfolio/static/media/linux.32a9bcd0350f51b5188852a775332b6c.svg",
     "static/media/kubernetes.svg": "/portfolio/static/media/kubernetes.44d2e074b50592a1e5050b2713afd82c.svg",
@@ -31,12 +29,12 @@
     "static/media/express.svg": "/portfolio/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/windows.svg": "/portfolio/static/media/windows.7246ccf28ddce71d8cfd11c1ffc38c86.svg",
     "index.html": "/portfolio/index.html",
-    "main.1e314c5f.css.map": "/portfolio/static/css/main.1e314c5f.css.map",
-    "main.d62f6b9d.js.map": "/portfolio/static/js/main.d62f6b9d.js.map",
+    "main.6d6b3655.css.map": "/portfolio/static/css/main.6d6b3655.css.map",
+    "main.0e01b8ae.js.map": "/portfolio/static/js/main.0e01b8ae.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e314c5f.css",
-    "static/js/main.d62f6b9d.js"
+    "static/css/main.6d6b3655.css",
+    "static/js/main.0e01b8ae.js"
   ]
 }
