@@ -2,6 +2,7 @@ import { useState} from 'react'
 import spring from '../assets/spring.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import React from 'react';
 
 
 export default function Intro() {

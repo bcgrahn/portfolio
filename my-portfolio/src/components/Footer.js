@@ -1,3 +1,4 @@
+import React from 'react';
 
 export default function Footer(){
   return (
@@ -35,7 +36,7 @@ export default function Footer(){
                 </ul>
             </div>
             <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Follow us</h2>
+                <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Follow</h2>
                 <ul className="text-gray-200  dark:text-gray-400">
                     <li className="mb-4">
                         <a href="https://github.com/bcgrahn?tab=repositories" class="hover:underline ">Github</a>

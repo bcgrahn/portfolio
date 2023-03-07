@@ -4,14 +4,15 @@ import Intro from '../components/Intro';
 import Skills from '../components/Skills';
 import './Page.css';
 import HR from '../components/HR';
+import React from 'react';
 
 const HomePage = () => {
 
     return (
-        <div class="bggradient content">
+        <div class="bggradient">
             <div class="overlay">
                 <header class="sticky top-0"><Navbar /></header></div>
-            <div className="px-6 lg:px-20 xl:px-36">
+            <div className="content px-6 lg:px-20 xl:px-36">
                 <Intro />
                 <HR />
                 <Skills />
@@ -19,7 +20,7 @@ const HomePage = () => {
                 {/* <Honors /> */}
                 {/* <Certs /> */}
                 {/* <Testimonials /> */}
-               
+
             </div>
             <Footer />
         </div>
