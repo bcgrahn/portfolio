@@ -17,8 +17,8 @@ export default function Intro() {
                 :
                 null
             }
-            <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative pb-20 md:pb-0">
-                <div className='pt-14  md:w-3/6 md:p-4'>
+            <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative pb-20 md:pb-0 pt-10">
+                <div className='pt-20  md:w-3/6 md:p-4'>
                     <img className="bounce" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="200" src={spring} alt="profile" onLoad={() => setLoaded(false)} />
                 </div>
                 <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >

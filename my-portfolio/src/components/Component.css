@@ -79,7 +79,7 @@
 .bounce {
   transition: transform 0.2s ease-in-out;
   animation: bounce 2.5s;
-  animation-iteration-count: 50;
+  animation-iteration-count: 1000;
 }
 
 @keyframes bounce {
