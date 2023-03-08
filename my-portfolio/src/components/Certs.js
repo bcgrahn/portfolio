@@ -6,6 +6,7 @@ import dicodingNetwork from "../assets/certs/dicoding-network.png"
 import progateHtml from "../assets/certs/progate-htmlcss.png"
 import progateJs from "../assets/certs/progate-js.png"
 import fccResponsive from "../assets/certs/fcc-responsive.png"
+import CertCard from "./CertCard.js"
 
 // import 
 
@@ -27,7 +28,6 @@ export default function Certs(){
                 <CertCard name="Kursus HTML & CSS" img={progateHtml} issued="Progate" date="Oct 2020" />
 
             </div>
-            <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
         </div>
     )
 }

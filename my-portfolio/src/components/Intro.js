@@ -1,8 +1,8 @@
-import { useState} from 'react'
 import spring from '../assets/spring.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import React from 'react';
+import { useState } from "react";
 
 
 export default function Intro() {
@@ -17,15 +17,15 @@ export default function Intro() {
                 :
                 null
             }
-            <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative">
+            <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative pb-20 md:pb-0">
                 <div className='pt-14  md:w-3/6 md:p-4'>
-                    <img data-aos="flip-right" data-aos-duration="1500" data-aos-offset="200" src={spring} alt="profile" onLoad={() => setLoaded(false)} />
+                    <img className="bounce" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="200" src={spring} alt="profile" onLoad={() => setLoaded(false)} />
                 </div>
                 <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                     <div className="flex flex-col w-full mt-8">
                         <h1 className="text-xl text-gray-200">Hi, I'm</h1>
                         <h1 className="text-2xl font-bold">Bryce Grahn</h1>
-                        <p class="py-5 text-xl font-bold text-gray-100">Information Engineer</p>
+                        <p class="pt-5 text-xl font-bold text-gray-100">Information Engineer</p>
                         <p className="text-md font-light text-gray-200 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Cloud Computing, DevSecops, and Web Development. Now I am looking for more experience in my field.</p>
                     </div>
 

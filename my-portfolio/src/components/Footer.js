@@ -12,7 +12,7 @@ export default function Footer(){
     //  <img src={hr} className="mb-4 mt-4 w-full md:h-1 text-white bottom-0" alt="hr" />
     //   <p className="text-sm font-light text-center">Copyright © Bryce Grahn. All Right Reserved</p>
 
-<div className = "p-8">  
+<div className = "p-8 md:pt-20">  
 <footer className="p-4 sm:p-6 dark:bg-gray-900">
     <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">

@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import logo from '../assets/rabbit.png';
 import resume from "../assets/resume.pdf";
 import { Dropdown } from 'flowbite-react';
@@ -46,6 +47,7 @@ export default function Navbar() {
                                 </a>
                             </li>
                         </ul>
+
                         <a href={resume} rel="noreferrer" target="_blank" className="hidden md:flex">
                             <button class="glass-button">Resume</button></a>
                         <button onClick={toggleDiv} type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
@@ -105,7 +107,6 @@ export default function Navbar() {
                 </nav>
             </div>
         </div>
-
     )
 }
 
