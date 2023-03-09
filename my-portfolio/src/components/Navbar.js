@@ -3,8 +3,14 @@ import logo from '../assets/rabbit.png';
 import resume from "../assets/resume.pdf";
 import { Dropdown } from 'flowbite-react';
 import "./Component.css";
+import { Squash as Hamburger } from 'hamburger-react'
+
 
 export default function Navbar() {
+
+    const [isOpen, setOpen] = useState(false)
+
+    const [isActive] = useState(false);
 
     function toggleDiv() {
         var div = document.getElementById("ham-controller");
@@ -50,11 +56,11 @@ export default function Navbar() {
 
                         <a href={resume} rel="noreferrer" target="_blank" className="hidden md:flex">
                             <button class="glass-button">Resume</button></a>
-                        <button onClick={toggleDiv} type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
-                            <span class="sr-only">Open main menu</span>
-                            <svg class="w-6 h-6" aria-hidden="true" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                            </svg>
-                        </button>
+
+                        <div onClick={toggleDiv} className="md:hidden">
+                            <Hamburger toggled={isOpen} toggle={setOpen} size={25} />
+                        </div>
+
                     </div>
                 </div>
             </nav>

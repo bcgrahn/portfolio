@@ -91,3 +91,37 @@
     transform: translateY(-15px);
   }
 }
+
+.McButton {
+  --bar-w: 44px;
+  --bar-h: 3px;
+  --bar-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: calc(-1 * var(--bar-w) / 2);
+  margin-top: calc(-1 * var(--bar-w) / 2);
+  width: var(--bar-w);
+  height: calc(var(--bar-w) * 3 / 4);
+  cursor: pointer;
+}
+
+.McButton b {
+  position: absolute;
+  left: 0;
+  width: var(--bar-w);
+  height: var(--bar-h);
+  background-color: var(--bar-color);
+}
+
+.McButton b:nth-child(1) {
+  top: 0;
+}
+
+.McButton b:nth-child(2) {
+  top: 50%;
+}
+
+.McButton b:nth-child(3) {
+  top: 100%;
+}
