@@ -15,7 +15,7 @@ export default function Intro() {
         </div>
         : null}
       <div id='home' className='flex w-full h-screen flex-col md:flex-row gap-6 items-center justify-center text-white relative pt-20'>
-        <div className='pt-20  md:w-3/6 md:p-4'>
+        <div className='pt-80 sm:pt-20  md:w-3/6 md:p-4'>
           <img className='bounce' data-aos='flip-right' data-aos-duration='15000' data-aos-offset='200' src={spring} alt='profile' onLoad={() => setLoaded(false)} />
         </div>
         <div className='md:w-3/6' data-aos='fade-right' data-aos-duration='1000' data-aos-offset='100'>

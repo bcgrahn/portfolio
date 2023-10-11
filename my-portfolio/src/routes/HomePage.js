@@ -17,7 +17,9 @@ const HomePage = () => {
       </div>
       <div className='content px-6 lg:px-20 xl:px-36'>
         <Intro />
-        <div className='pt-40 md:pt-1'>
+        <div className='pt-80 sm:pt-20 md:pt-1'>
+        </div>
+        <div className='pt-20 sm:pt-0'>
         </div>
         <HR />
         <Skills />
